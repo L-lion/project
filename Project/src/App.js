@@ -5,9 +5,21 @@ import BodyRightManage from "./component/bodyRight/manage/bodyRightManage";
 import Footer from "./component/footer/footer";
 
 class App extends Component {
-    render() {
+    constructor(props) {
+        super(props);
+
+        this.saveRef = ref => {this.refDom = ref};
+        this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick(e) {
+        const {clientWidth, clientHeight} = this.refDom;
+        console.log(clientWidth, clientHeight, this.refDom);
+    }
+
+    render(){
         return (
-            <div className="home">
+            <div className="home" ref={this.saveRef} onClick={this.handleClick}>
                 <div className='body'>
                     <div className='body-left'>
                         <BodyLeft/>

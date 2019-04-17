@@ -1,12 +1,15 @@
-import React from 'React';
+import React from 'react';
 
-    class SensorSystem extends React.Component {
+export default  class SensorSystem extends React.Component {
 
 render(){
     return(
-        <div>
-            <P>传感器</P>
+        <div className='sensor-system'>
+            <p>传感器</p>
             <hr/>
+            <div>
+
+            </div>
         </div>
 
     );
@@ -15,4 +18,3 @@ render(){
 
 }
 
-export {SensorSystem as default};

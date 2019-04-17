@@ -15,14 +15,7 @@ class LoginContent extends React.Component {
         }
 
     };
-    // checkEmail(rule, value, callback) {
-    //     var re = /^(\w-*\.*)+@(\w-?)+(\.\w{2,})+$/;
-    //     if(re.test(value)){
-    //         callback();
-    //     }else{
-    //         callback("邮箱号有误，请重填");
-    //     }
-    // };
+
     handleSubmit=()=>{
         let userInfo=this.props.form.getFieldsValue();
 this.props.form.validateFields((err,values)=>{

@@ -15,22 +15,21 @@ export default class BodyLeft extends React.Component {
                 </div>
                 <a href="">
                     <div className='body-left-manage'>
-                        <div>
-                            <img src={manage} alt=""/>
-                            <p>管理</p>
-                        </div>
+                        <img src={manage} alt=""/>
+                        <p>设置</p>
                     </div>
                 </a>
-
                 <a href="">
-                    <div className='body-left-scan'>
+
+                <div className='body-left-scan'>
                         <div>
                             <img src={scan} alt=""/>
                             <p>扫描</p>
                         </div>
 
-                    </div>
+                </div>
                 </a>
+
 
             </div>
         );

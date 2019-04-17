@@ -1,22 +1,29 @@
-.body-left-manage{
+.body-right-manage{
     width: 100%;
     height: 100%;
+    margin-top: 0;
+    padding-top: 0;
 }
-.body-left-manage-p{
-    margin-left: 5.3%;
+.body-right-manage-p{
+    margin-left: 4%;
     width:36px;
     height:25px;
-    font-size:18px;
+    font-size:11px;
     font-family:PingFangSC-Bold;
     font-weight:bold;
     color:rgba(3,0,12,1);
     line-height:25px;
+    margin-right: 5%;
 }
 .body-right-content{
     width: 94%;
     height:84%;
-    background:rgba(242,243,247,1);
-    position: absolute;
-    left: 5.3%;
-    bottom: 2%;
+    background:rgba(255,255,255,1);
+    position: relative;
+    left: 4%;
+    bottom: 0.5%;
+}
+.manage-box{
+    width: 100%;
+    height: 100%;
 }
