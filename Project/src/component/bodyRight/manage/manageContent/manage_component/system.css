@@ -1,1 +1,79 @@
-.sensor-system
+.sensor-system {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.sensor-system p{
+    font-size:18px;
+    font-family:PingFangSC-Bold;
+    font-weight:bold;
+    color:rgba(0,0,0,1);
+    padding-top: 1%;
+    padding-left: 4.8%;
+    position: relative;
+    left: 0;
+    display: inline;
+
+}
+
+.sensor-system hr{
+    border: none;
+    width:100%;
+    height:2px;
+    background:rgba(237,237,237,1);
+}
+.sensor-system div p{
+    height:20px;
+    font-size:14px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(0,0,0,1);
+    position: relative;
+}
+.sensor-system div{
+    width:100%;
+    line-height: 40px;
+}
+.sensor-system-content-p1 {
+    position: absolute;
+
+}
+.sensor-system-content-seri{
+    margin-left: 20%;
+}
+.sensor-system-content-status{
+    margin-left: 20%;
+
+}
+
+.sensor-system-content-ready{
+
+    background:rgba(43,186,103,1);
+    border-radius:2px;
+    width:42px;
+    height:20px;
+    font-size:14px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:20px;
+    padding:0 10px;
+
+}
+
+
+.sensor-system-content-master{
+    padding:0 10px;
+    font-size:14px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:20px;
+    width:10%;
+    height:30px;
+    background:rgba(155,155,155,1);
+    border-radius:2px;
+
+}

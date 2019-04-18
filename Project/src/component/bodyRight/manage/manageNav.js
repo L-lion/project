@@ -1,10 +1,13 @@
 import React from 'react';
-import sensorSystem from './img/sensorSystem.png';
-import internet from './img/internet.png';
-import job from './img/job.png';
-import permission from './img/permission.png';
-import support from './img/support.png';
-import SensorSystem from "./manage_component/sensorSystem";
+import sensorSystem from './manageContent/img/sensorSystem.png';
+
+import internet from './manageContent/img/internet.png';
+import job from './manageContent/img/job.png';
+import permission from './manageContent/img/permission.png';
+import support from './manageContent/img/support.png';
+import SensorSystem from "./manageContent/manage_component/sensorSystem";
+import Internet from "./manageContent/manage_component/internet";
+// import Internet from "./manageContent/manage_component/internet";
 
 require('./manageNav.css');
 export default class Manage extends React.Component {
@@ -12,8 +15,11 @@ export default class Manage extends React.Component {
     render() {
 
         return (
-            <div className='manage-box'>
-                <div className='manage-box-nav'>
+            <div className='manage-container'>
+                <p className='manage-container-p'>设置</p>
+                <div className='manage-container-content'>
+
+                <div className='manage-container-content-nav'>
                     <ul>
                         <li><img src={sensorSystem} alt=""/><span>传感器系统</span>
                         <p>系统布局和副传感器指派</p></li>
@@ -23,8 +29,9 @@ export default class Manage extends React.Component {
                         <li><img src={support} alt=""/><span>支持</span><p>用户手册，支持文件与开发包</p></li>
                     </ul>
                 </div>
-                <div className='manage_content'>
-                    <SensorSystem/>
+                <div className='manage-container-content-main'>
+                    <Internet/>
+                </div>
                 </div>
             </div>
         );

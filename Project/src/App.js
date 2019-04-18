@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import BodyLeft from "./component/bodyLeft/bodyLeft";
-import BodyRightManage from "./component/bodyRight/manage/bodyRightManage";
+import BodyRight from "./component/bodyRight/bodyRight";
 import Footer from "./component/footer/footer";
 
 class App extends Component {
@@ -25,7 +25,7 @@ class App extends Component {
                         <BodyLeft/>
                     </div>
                     <div className='body-right'>
-                        <BodyRightManage/>
+                        <BodyRight/>
                     </div>
                 </div>
                 <div className='footer'>

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Header from "../header/header";
 import ManageNav from "./manageContent/manageNav";
-require('./bodyRightManage.css');
+require('../bodyRight.css');
 
 export default class BodyRightManage extends React.Component {
     render() {

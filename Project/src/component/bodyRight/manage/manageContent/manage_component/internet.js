@@ -1,11 +1,11 @@
-import React from 'React';
+import React from 'react';
+require('./internet');
 
-class Internet extends React.Component {
+export default class Internet extends React.Component {
 
     render(){
         return(
-            <div>
-                <div>
+                <div className='internet'>
                     <p>网络</p>
                     <hr/>
 
@@ -17,7 +17,6 @@ class Internet extends React.Component {
                         <input type="button" value='保存'/>
                     </form>
                 </div>
-            </div>
 
         );
     }
@@ -25,4 +24,3 @@ class Internet extends React.Component {
 
 }
 
-export {Internet as default};

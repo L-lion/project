@@ -17,7 +17,7 @@
     font-weight:bold;
     color:rgba(51,59,77,1);
     line-height:20px;
-
+    padding-right: 20px;
 }
 
 .header .p2{
@@ -28,4 +28,6 @@
     font-weight:400;
     color:rgba(186,186,186,1);
     line-height:5px;
+    padding-right: 20px;
+
 }

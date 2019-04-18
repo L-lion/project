@@ -1,16 +1,14 @@
 import React from 'React';
 
-class Job extends React.Component {
+export default class Job extends React.Component {
 
     render() {
         return (
             <div>
                 <p>任务</p>
                 <hr/>
-
                 <div>
                     <div>
-
                     </div>
                     <div>
                         名称：<input type="text"/>
@@ -34,5 +32,3 @@ class Job extends React.Component {
 
 
 }
-
-export {Job as default};

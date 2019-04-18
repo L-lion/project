@@ -1,25 +1,38 @@
-.manage-box {
+.manage-container {
     width: 100%;
-    height: 100%;
-    clear: both;
+    height: 92.6%;
 }
+.manage-container-p{
+margin-left: 4%;
+width:36px;
+height:3%;
+font-size:11px;
+font-family:PingFangSC-Bold;
+font-weight:bold;
+color:rgba(3,0,12,1);
+    line-height: 25px;
+}
+.manage-container-content{
+    width: 93.8%;
+    height:81.7%;
+    background:rgba(250, 250, 250, 1);
+    margin-left: 4%;
 
-.manage-box-nav {
+}
+.manage-container-content-nav {
     width: 28.3%;
     height: 100%;
-    background: rgba(250, 250, 250, 1);
     float: left;
 }
 
-.manage-box ul {
+.manage-container-content-nav ul {
     height: 100%;
-
     display: block;
 }
-.manage-box ul :hover {
+.manage-container-content-nav ul :hover {
     background: rgba(227, 226, 237, 1);
 }
-.manage-box ul li {
+.manage-container-content-nav ul li {
     width: 100%;
     height: 17.7%;
     line-height: 17.7%;
@@ -28,13 +41,13 @@
 
 
 
-.manage-box ul li img {
+.manage-container-content-nav ul li img {
     width: 14%;
     height: 53.3%;
     margin-left: 12.4%;
     margin-top:3%;
 }
-.manage-box ul li span{
+.manage-container-content-nav ul li span{
     width:90px;
     height:25px;
     font-size:10px;
@@ -44,7 +57,7 @@
     line-height:25px;
     margin-left:6% ;
 }
-.manage-box ul li p {
+.manage-container-content-nav ul li p {
     width: 100%;
     height: 3.6%;
     font-size: 5px;
@@ -55,9 +68,11 @@
     margin-buttom: 13%;
 }
 
-.manage_content {
+.manage-container-content-main {
     width: 72.7%;
     height: 100%;
-    margin-left: 28.3%;
+    position: relative;
+    left: 28.3%;
+    background-color: #FFFFFF;
 
 }
