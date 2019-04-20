@@ -1,0 +1,16 @@
+.scan-container{
+    width: 100%;
+    height: 92.6%;
+    position: relative;
+}
+.scan-container-p{
+    margin-left: 4%;
+    width:36px;
+    height:3%;
+    font-size:11px;
+    font-family:PingFangSC-Bold;
+    font-weight:bold;
+    color:rgba(3,0,12,1);
+    line-height: 27px;
+}
+

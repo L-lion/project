@@ -1,0 +1,92 @@
+.support {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.support hr {
+    border: none;
+    width: 100%;
+    height: 2px;
+    background: rgba(237, 237, 237, 1);
+}
+
+.support-title {
+    font-size: 14px;
+    font-family: PingFangSC-Bold;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    padding-top: 3%;
+    padding-left: 4.8%;
+    position: relative;
+    left: 0;
+    display: inline;
+}
+
+.info p {
+    display: inline;
+    margin-left: 4.8%;
+}
+
+.support-tech {
+    margin-top: 2%;
+}
+
+.support-tech p {
+    display: inline;
+    margin-left: 4.8%;
+    margin-top: 1%;
+
+}
+
+.support Form {
+    width: 95%;
+    position: relative;
+    left: 4.8%;
+    margin-top: 1%;
+
+}
+
+.support Input {
+    width: 39%;
+    height: 27.2%;
+}
+
+.download {
+    font-size: 11px;
+    width: 14%;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(56, 65, 187, 1);
+    position: relative;
+    left: 81.5%;
+}
+
+.support-user Button {
+    position: relative;
+    left: 49%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 2%;
+}
+
+.support-des {
+    margin-top: 1%;
+}
+
+.support-des TextArea {
+    width: 90%;
+}
+
+.support-develop {
+    margin-top: 1%;
+
+}
+
+.support-title-download {
+    width: 16%;
+
+    position: relative;
+    left: 58%;
+}

@@ -4,6 +4,8 @@ import 'antd/dist/antd.css';
 import Input from "antd/es/input/Input";
 import FormItem from "antd/lib/form/FormItem";
 require('./login-container.css');
+
+
 class LoginContent extends React.Component {
     checkAccount(rule, value, callback) {
         const re = /^(\w-*\.*)+@(\w-?)+(\.\w{2,})+$/;

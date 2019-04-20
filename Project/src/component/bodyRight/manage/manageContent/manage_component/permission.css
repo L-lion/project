@@ -1,15 +1,30 @@
-.internet{
+.permission{
     width:100%;
     height:100%;
     position: absolute;
 }
-.internet hr{
+.permission-hr1{
+     border: none;
+     width:100%;
+     height:2px;
+     background:rgba(237,237,237,1);
+ }
+.permission-hr2{
     border: none;
     width:100%;
     height:2px;
     background:rgba(237,237,237,1);
 }
-.internet p{
+.admin{
+    width: 100%;
+    height: 40%;
+    text-align: left;
+}
+.tech{
+    width: 100%;
+    height: 40%;
+}
+.permission p{
     font-size:18px;
     font-family:PingFangSC-Bold;
     font-weight:bold;
@@ -19,37 +34,28 @@
     position: relative;
     left: 0;
     display: inline;
+}
+.permission Form{
+    width: 95%;
+    position: relative;
+    left: 4.8%;
+    top:5%;
+}
 
-}
-.internet Form{
-    width: 90%;
-position: absolute;
-    left:4.8%;
-    top:10%;
-}
-.internet Input{
+.permission Input{
     width:39%;
     height: 27.2%;
 
 }
-.type{
-
+.pwd{
     position: relative;
-    left:51%;
+    left:50%;
 }
-.ip{
-    position: relative;
-    left:54%;
-}
-.code{
+.confirm{
     position: relative;
     left:47%;
 }
-.gate{
-    position: relative;
-    left:51%;
-}
-.save{
+.change{
     font-size:11px;
     width: 14%;
     font-family:PingFangSC-Regular;
@@ -58,9 +64,5 @@ position: absolute;
     line-height:20px;
     background:rgba(56,65,187,1);
     position: relative;
-    left: 82.5%;
-}
-.internet FormItem{
-    padding-left: 4.8%;
-    left: 0;
+    left: 81.5%;
 }

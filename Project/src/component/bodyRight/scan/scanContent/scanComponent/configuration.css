@@ -1,0 +1,22 @@
+.configuration {
+    width: 100%;
+    height: 100%;
+}
+
+.configuration-div {
+    padding: 20px;
+    height: 20%;
+    text-align: right;
+}
+
+.configuration-div p {
+    display: inline;
+    padding-right: 31%;
+}
+
+.configuration-content {
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+

@@ -1,0 +1,29 @@
+.scan-mode{
+    height:100%;
+    width:100%;
+}
+.scan-mode Button{
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.scan-mode img{
+    width:36px;
+    height:36px;
+}
+
+/*.scan-mode p{*/
+    /*!*width:28px;*!*/
+    /*!*height:20px;*!*/
+    /*font-size:14px;*/
+    /*font-family:PingFangSC-Regular;*/
+    /*font-weight:400;*/
+    /*color:rgba(0,0,0,1);*/
+    /*padding-top:32%;*/
+    /*padding-left: 5.5%;*/
+/*}*/
+
+/*!*#d{*!*/
+    /*!*position: relative;*!*/
+    /*!*left:0;*!*/
+    /*!*padding-left: 0;*!*/
+/*!*}*!*/

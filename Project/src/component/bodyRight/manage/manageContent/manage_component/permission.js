@@ -1,25 +1,45 @@
-import React from 'React';
+import React from 'react';
+import {Button, Form, Input} from "antd";
+import FormItem from "antd/lib/form/FormItem";
+require('./permission.css');
 
-class Permission extends React.Component {
+export default class Permission extends React.Component {
 
-    render(){
-        return(
-            <div>
+    render() {
+        return (
+            <div className='permission'>
                 <p>管理员</p>
-                <hr/>
-                <form action="">
-                    密码： <input type="password"/>
-                    确认密码：<input type="password"/>
-                    <input type="button" value='更改密码'/>
-                </form>
-                <hr/>
+                <hr className='permission-hr1'/>
+                <div className='admin'>
+                    <Form>
+                        <FormItem>
+                            密码： <Input className='pwd'/>
+                        </FormItem>
+                        <FormItem>
+                            确认密码：<Input className='confirm'/>
+                        </FormItem>
+                        <FormItem>
+                            <Button className='change'>更改密码</Button>
+                        </FormItem>
+
+                    </Form>
+                </div>
+                <hr className='permission-hr2'/>
                 <p>技术员</p>
-                <hr/>
-                <form action="">
-                    密码： <input type="password"/>
-                    确认密码：<input type="password"/>
-                    <input type="button" value='更改密码'/>
-                </form>
+                <hr className='permission-hr2'/>
+                <div className='tech'>
+                    <Form>
+                        <FormItem>
+                            密码： <Input className='pwd'/>
+                        </FormItem>
+                        <FormItem>
+                            确认密码：<Input className='confirm'/>
+                        </FormItem>
+                        <FormItem>
+                            <Button className='change'>更改密码</Button>
+                        </FormItem>
+                    </Form>
+                </div>
             </div>
 
 
@@ -27,4 +47,3 @@ class Permission extends React.Component {
     }
 }
 
-export {Permission as default};

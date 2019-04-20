@@ -1,15 +1,16 @@
 import React from 'react';
 import sensorSystem from './manageContent/img/sensorSystem.png';
-
 import internet from './manageContent/img/internet.png';
 import job from './manageContent/img/job.png';
 import permission from './manageContent/img/permission.png';
 import support from './manageContent/img/support.png';
 import SensorSystem from "./manageContent/manage_component/sensorSystem";
 import Internet from "./manageContent/manage_component/internet";
-// import Internet from "./manageContent/manage_component/internet";
-
+import Job from "./manageContent/manage_component/job";
+import Permission from "./manageContent/manage_component/permission";
+import Support from "./manageContent/manage_component/support";
 require('./manageNav.css');
+
 export default class Manage extends React.Component {
 
     render() {
@@ -30,7 +31,7 @@ export default class Manage extends React.Component {
                     </ul>
                 </div>
                 <div className='manage-container-content-main'>
-                    <Internet/>
+                    <Job/>
                 </div>
                 </div>
             </div>

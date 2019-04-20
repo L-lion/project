@@ -1,0 +1,14 @@
+.scan-operation{
+    height:auto;
+    width:100%;
+}
+
+.scan-operation img{
+    width:36px;
+    height:36px;
+}
+
+.scan-operation Button{
+    padding-top: 5%;
+    padding-left: 10%;
+}

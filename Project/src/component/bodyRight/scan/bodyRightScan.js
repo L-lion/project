@@ -1,17 +1,14 @@
-import React, {Component} from 'react';
-import Header from "../header/header";
-import ManageNav from "./manageContent/manageNav";
-require('../bodyRight.css');
+import React from 'react';
+import Scan from "./scanContent/Scan";
 
-export default class BodyRightManage extends React.Component {
+require('./bodyRightScan.css');
+
+export default class RightScan extends React.Component {
     render() {
         return (
-            <div className='body-right-manage'>
-                <Header/>
-                <p className='body-right-manage-p'>扫描</p>
-                <div className='body-right-content'>
-                    <ManageNav/>
-                </div>
+            <div className='scan-container'>
+                <p className='scan-container-p'>扫描</p>
+                <Scan/>
             </div>
         );
 

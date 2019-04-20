@@ -1,22 +1,46 @@
 import React from 'react';
-require('./internet');
+import {Input, Button, Form, Select} from 'antd';
+import 'antd/dist/antd.css';
+import FormItem from "antd/lib/form/FormItem";
+
+const Option = Select.Option;
+require('./internet.css');
 
 export default class Internet extends React.Component {
+    // function handleChange(value) {
+    //     console.log(`selected ${value}`);
+    // }
 
-    render(){
-        return(
-                <div className='internet'>
-                    <p>网络</p>
-                    <hr/>
+    render() {
+        return (
+            <div className='internet'>
+                <p>网络</p>
+                <hr/>
+                <Form action="">
+                    <FormItem>
+                        类型：<Select defaultValue="自动" className='type' style={{width: 259 }}>
+                        <Option value="手动">手动</Option>
+                    </Select>
 
-                    <form action="">
-                        类型：<input type="text"/>
-                        IP: <input type="text"/>
-                        子网掩码：<input type="text"/>
-                        网关：<input type="text"/>
-                        <input type="button" value='保存'/>
-                    </form>
-                </div>
+                    </FormItem>
+                    <FormItem >
+                        IP: <Input className='ip'/>
+                    </FormItem>
+
+                    <FormItem>
+                        子网掩码：<Input className='code'/>
+                    </FormItem>
+
+                    <FormItem>
+                        网关：<Input className='gate'/>
+                    </FormItem>
+
+                    <FormItem>
+                        <Button className='save'>保存</Button>
+                    </FormItem>
+
+                </Form>
+            </div>
 
         );
     }
